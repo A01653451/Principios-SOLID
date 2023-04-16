@@ -39,8 +39,9 @@ Run container
 #SOLID
 
 Se creo un nuevo archivo .py en donde se extrae la información de las películas y en donde se implementan 2 funciones:
-    SortMovies(): En donde se organiza la información de las películas en un array.
 
+    SortMovies(): En donde se organiza la información de las películas en un array.
+    
     CreateCSV(): La cual recibe un parámetro el cual contenga la información de las películas ordenadas para poder       exportar un archivo CSV donde se encontrará toda la información.
 
 Esto se hizo para simplificar el código principal y poder tener mayor control sobre los componentes en caso de querer modificarlos, además de poder utilizar los métodos en el futuro de manera independiente.
